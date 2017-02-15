@@ -21,13 +21,6 @@
 
   **Part 2, Modify sentence server to use Ribbon**	
 
-6.  Add this to sentence and word pom.xml files:
- ```
- <dependency>
-	<groupId>org.springframework.cloud</groupId>
-	<artifactId>spring-cloud-starter-ribbon</artifactId>
- </dependency>
- ```
 7.  Run the lab-5-sentence-server project.  Refresh Eureka to see it appear in the list.  Test to make sure it works by opening [http://localhost:8020/sentence](http://localhost:8020/sentence).  You should see several random sentences appear.  We will refactor this code to make use of Ribbon.
 
 8.  Stop the lab-5-sentence-server.  Add the org.springframework.cloud / spring-cloud-starter-ribbon dependency.
