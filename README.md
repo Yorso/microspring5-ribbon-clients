@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="http://www.gregoriopalama.com/wp-content/uploads/2016/06/cloud.png" alt="Spring Cloud Netflix"/>
+</p>
+
 ##Lab 5 - Using Ribbon Clients
 
 **Part 1, Run Config Server, Eureka, and the word servers**
